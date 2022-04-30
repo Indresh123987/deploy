@@ -1,0 +1,22 @@
+{
+  "name": "upload_file",
+  "version": "1.0.0",
+  "description": "to upload file",
+  "main": "server.js",
+  "engines": {
+    "node": "14.15.0"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "formidable": "^2.0.1",
+    "multer": "^1.4.4",
+    "mv": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "test@gmail.com",
+  "license": "ISC"
+}
